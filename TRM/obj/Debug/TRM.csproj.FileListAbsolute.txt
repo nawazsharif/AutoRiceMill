@@ -1,0 +1,14 @@
+C:\Users\Niloy\source\repos\TRM\TRM\bin\Debug\TRM.exe.config
+C:\Users\Niloy\source\repos\TRM\TRM\bin\Debug\TRM.exe
+C:\Users\Niloy\source\repos\TRM\TRM\bin\Debug\TRM.pdb
+C:\Users\Niloy\source\repos\TRM\TRM\obj\Debug\TRM.csprojResolveAssemblyReference.cache
+C:\Users\Niloy\source\repos\TRM\TRM\obj\Debug\TRM.Home.resources
+C:\Users\Niloy\source\repos\TRM\TRM\obj\Debug\TRM.Login.resources
+C:\Users\Niloy\source\repos\TRM\TRM\obj\Debug\TRM.Properties.Resources.resources
+C:\Users\Niloy\source\repos\TRM\TRM\obj\Debug\TRM.csproj.GenerateResource.Cache
+C:\Users\Niloy\source\repos\TRM\TRM\obj\Debug\TRM.csproj.CoreCompileInputs.cache
+C:\Users\Niloy\source\repos\TRM\TRM\obj\Debug\TRM.exe
+C:\Users\Niloy\source\repos\TRM\TRM\obj\Debug\TRM.pdb
+C:\Users\Niloy\source\repos\TRM\TRM\obj\Debug\TRM.ARMHome.resources
+C:\Users\Niloy\source\repos\TRM\TRM\obj\Debug\TRM.ARMPOS.resources
+C:\Users\Niloy\source\repos\TRM\TRM\obj\Debug\TRM.AddNameForm.resources
