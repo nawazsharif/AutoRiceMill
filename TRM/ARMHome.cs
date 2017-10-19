@@ -30,5 +30,18 @@ namespace TRM
             ARMPOS atmpos = new ARMPOS();
             atmpos.Show();
         }
+
+        private void customerToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            CustomerForm cmform = new CustomerForm();
+            cmform.Show();
+
+        }
+
+        private void addStorageToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            ProductForm pform = new ProductForm();
+            pform.Show();
+        }
     }
 }

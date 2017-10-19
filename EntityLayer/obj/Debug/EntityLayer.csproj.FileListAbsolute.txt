@@ -1,0 +1,11 @@
+C:\Users\Niloy\source\repos\TRM\EntityLayer\bin\Debug\EntityLayer.dll.config
+C:\Users\Niloy\source\repos\TRM\EntityLayer\bin\Debug\EntityLayer.dll
+C:\Users\Niloy\source\repos\TRM\EntityLayer\bin\Debug\EntityLayer.pdb
+C:\Users\Niloy\source\repos\TRM\EntityLayer\bin\Debug\EntityFramework.dll
+C:\Users\Niloy\source\repos\TRM\EntityLayer\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Niloy\source\repos\TRM\EntityLayer\bin\Debug\EntityFramework.xml
+C:\Users\Niloy\source\repos\TRM\EntityLayer\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Niloy\source\repos\TRM\EntityLayer\obj\Debug\EntityLayer.csprojResolveAssemblyReference.cache
+C:\Users\Niloy\source\repos\TRM\EntityLayer\obj\Debug\EntityLayer.csproj.CoreCompileInputs.cache
+C:\Users\Niloy\source\repos\TRM\EntityLayer\obj\Debug\EntityLayer.dll
+C:\Users\Niloy\source\repos\TRM\EntityLayer\obj\Debug\EntityLayer.pdb

@@ -26,5 +26,11 @@ namespace TRM
         {
 
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            CustomerForm cmform = new CustomerForm();
+            cmform.Show();
+        }
     }
 }

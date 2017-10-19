@@ -34,9 +34,6 @@
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.homeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.addStorageToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.addDataToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.editDataToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.addDataToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.chengePriceToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.detailsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.stockToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -73,7 +70,7 @@
             this.groupBox2.Controls.Add(this.menuStrip1);
             this.groupBox2.Location = new System.Drawing.Point(6, 73);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(962, 380);
+            this.groupBox2.Size = new System.Drawing.Size(962, 404);
             this.groupBox2.TabIndex = 1;
             this.groupBox2.TabStop = false;
             // 
@@ -100,31 +97,10 @@
             // 
             // addStorageToolStripMenuItem
             // 
-            this.addStorageToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.addDataToolStripMenuItem,
-            this.editDataToolStripMenuItem,
-            this.addDataToolStripMenuItem1});
             this.addStorageToolStripMenuItem.Name = "addStorageToolStripMenuItem";
-            this.addStorageToolStripMenuItem.Size = new System.Drawing.Size(50, 20);
-            this.addStorageToolStripMenuItem.Text = "Menu";
-            // 
-            // addDataToolStripMenuItem
-            // 
-            this.addDataToolStripMenuItem.Name = "addDataToolStripMenuItem";
-            this.addDataToolStripMenuItem.Size = new System.Drawing.Size(169, 22);
-            this.addDataToolStripMenuItem.Text = "Add NameOf Rice";
-            // 
-            // editDataToolStripMenuItem
-            // 
-            this.editDataToolStripMenuItem.Name = "editDataToolStripMenuItem";
-            this.editDataToolStripMenuItem.Size = new System.Drawing.Size(169, 22);
-            this.editDataToolStripMenuItem.Text = "Edit Data";
-            // 
-            // addDataToolStripMenuItem1
-            // 
-            this.addDataToolStripMenuItem1.Name = "addDataToolStripMenuItem1";
-            this.addDataToolStripMenuItem1.Size = new System.Drawing.Size(169, 22);
-            this.addDataToolStripMenuItem1.Text = "Add Data";
+            this.addStorageToolStripMenuItem.Size = new System.Drawing.Size(61, 20);
+            this.addStorageToolStripMenuItem.Text = "Product";
+            this.addStorageToolStripMenuItem.Click += new System.EventHandler(this.addStorageToolStripMenuItem_Click);
             // 
             // chengePriceToolStripMenuItem
             // 
@@ -162,6 +138,7 @@
             this.customerToolStripMenuItem.Name = "customerToolStripMenuItem";
             this.customerToolStripMenuItem.Size = new System.Drawing.Size(71, 20);
             this.customerToolStripMenuItem.Text = "Customer";
+            this.customerToolStripMenuItem.Click += new System.EventHandler(this.customerToolStripMenuItem_Click);
             // 
             // addCustomerToolStripMenuItem
             // 
@@ -179,7 +156,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(975, 465);
+            this.ClientSize = new System.Drawing.Size(975, 489);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
             this.MainMenuStrip = this.menuStrip1;
@@ -203,9 +180,6 @@
         private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.ToolStripMenuItem homeToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem addStorageToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem addDataToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem editDataToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem addDataToolStripMenuItem1;
         private System.Windows.Forms.ToolStripMenuItem chengePriceToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem detailsToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem stockToolStripMenuItem;

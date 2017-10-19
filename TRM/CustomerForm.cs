@@ -17,9 +17,30 @@ namespace TRM
             InitializeComponent();
         }
 
+        public void ClearAll()
+        {
+            txtCustomerName.Text = "";
+            txtCustomerPhone.Text = "";
+            txtCustomerAddress.Text = "";
+            txtEmail.Text = "";
+            txtNID.Text = "";
+        }
+
         private void groupBox2_Enter(object sender, EventArgs e)
         {
 
+        }
+
+        private void btnExit_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        
+
+        private void btnNew_Click(object sender, EventArgs e)
+        {
+            ClearAll();
         }
     }
 }
